@@ -1,0 +1,80 @@
+#boxContainerContainer {
+
+    border:2px solid pink;
+    height: 200px;
+    width: 200px;
+    margin-left: 650px;
+    margin-top: 80px;
+    text-align: center;
+
+
+}
+
+h1 {
+
+    text-align: center;
+}
+p {
+
+    text-align: center;
+}
+
+#boxContainer  {
+
+    text-align: center;
+    display: inline-block;
+
+}
+
+#box1 {
+
+    background: blue;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    font-size: 0;
+
+}
+#box2{
+
+    border: 2px solid white;
+    background: blue;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    font-size: 0;
+
+
+}
+
+#box3 {
+
+    border: 2px solid white;
+    font-size: 0;
+    background: blue;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+#box4{
+
+    font-size: 0;
+    border: 2px solid white;
+    background: blue;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+
+
+}
+
+
+.max {
+
+    background: red !important;
+}
+
+.blue {
+
+    background: blue !important;
+}
