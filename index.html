@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -10,23 +10,72 @@
 
 <body>
 
-<h1> catch the red!</h1>
-<p> Score:</p> <p id = score></p>
 
-<div id="boxContainerContainer">
-
-    <div id = boxContainer>
-
-        <div class = "max" id = box1>1</div>
-        <div id =box2>0</div>
-
-        <div id =box3>0</div>
-        <div id =box4>0</div>
+<main>
 
 
-</div>
+</main>
 
-</div>
+
+<script type="text/template" id="t-box">
+    <h1> catch the red!</h1>
+    <p> Score:</p> <p id=score></p>
+
+    <div id="boxContainerContainer">
+
+        <div id=boxContainer>
+
+            <div class="max" id=box1>1</div>
+            <div id=box2>0</div>
+
+            <div id=box3>0</div>
+            <div id=box4>0</div>
+
+        </div>
+
+    </div>
+
+    <a href="#help" style="margin-left: 400px"><b>Instructions</b></a>
+
+</script>
+
+
+<script type="text/template" id="t-help">
+
+
+    <div class='container'>
+        <p><b>Instructions:</b></p>
+        <p class="p-help">Pentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+            Donec eu libero sit amet quam egestas semper.
+            Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+
+
+        <a href="#game" style="margin-left:20px">Back to Game</a>
+
+    </div>
+</script>
+
+
+<script type="text/template" id="t-welcome">
+
+
+    <div class="containerStyle">
+
+
+        <h1>Welcome to catchTheRed game</h1>
+        <p> Choose from below </p>
+
+        <a href="#game">Start catchRedGame</a>
+        <a href="#help">Instructions</a>
+
+
+    </div>
+</script>
+
+
+<script src="js/Application.js"></script>
+<script src="js/page.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
